@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>Personal Homepage</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media-query.css">
+        <link rel="stylesheet" href="css/font.css">
+
+        <meta name="keywords" content="html, css, web development, responsive, degree, skill, experience, david, henry, ibezim">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <ul class="left">
+                    <li><a href="#"><img src="images/Daco_3004136.png" alt=""></a></li>
+                </ul>
+                <div class="right">
+                    <img  class="menu" src="images/menu.png" alt="menu icon" onclick="togglemenu()">
+                    <ul id="menuList">
+                        <li><a href="">About</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="hero"></div>
+            <h3>Responsive Web Design <br> by <br><strong class="strong">David Henry Ibezim</strong></h3>
+        </header>
+        <div class="container">
+        <div class="row">
+          <div class="col col-1">
+              <!-- col 1 -->
+              <div class="degree">
+                  <!-- <img src="https://br.hwcdsb.ca/learn/graduation/?fileID=567617" alt=""> -->
+              </div><br>
+              <div>
+                  <h2>Degree</h2>
+                  <p>
+                    <b>Education</b><br>
+ 
+                    <strong class="strong">Northeastern Illinois University</strong> - Chicago, IL <br> August 2022 <br>
+                    Bachelor of Science, Computer Science - Cyber Security <br><br>
+                    Relevant Courses: Data Structures, Algorithms, Cryptography, Computer Networks <br><br>
+                    <strong class="strong">Harry S. Truman College</strong> - Chicago, IL <br> May 2019 <br>
+                    Associate of Science, Computer Science  <br>
+                    GPA: 3.5 - <em>Phi Theta Kappa</em> <br>
+                 </p>
+                </div>
+            </div>
+            <div class="col col-2">
+             <div class="skill">
+
+            </div><br>
+                <div>
+                    <h2>Skills</h2>
+                    <p>
+                        <!-- <b><em>Coding Language & Software</em></b><br> -->
+    
+                        <b>Programming:</b> Java, SQL, Bash, Python, HTML, CSS, PHP, JavaScript <br><br>
+                        <b>Software:</b> 
+                        <p>
+                            Linux, Windows, IntelliJ, MySQL, MAMP, VMware, Office360, Google Docs
+                        </p> 
+                    
+                    </p>
+                </div>
+        </div>
+          <div class="col col-3">
+            <div class="work-experience">
+
+            </div><br>
+            <!-- <div> -->
+                <h2>Experience</h2>
+                <p>
+                   <b>Work Experience</b><br>
+
+                   <strong class="strong">Summer Research Opportunity Program (SROP)</strong> - Evanston, IL                     June 2021 - July 2021 <br>
+                   <em>The Graduate School at Northwestern University Internship</em> <br><br>
+                    <p class="xp"> 
+                        My project entailed the use of Molecular Dynamics (MD) Simulations to explore the DNA-Histone complex and the use of Linux terminal and Bash scripts <br>
+                    </p>
+                    <p class="xp">
+                        JAVA and FORTRAN scripts were used to define a system that utilized force fields such as harmonic bonds, angular potential, and Lennard-Jones potential <br>
+                    </p>
+                    <p class="xp">   
+                        Computationally modeled the nucleosome with GROMACS &mdash; a MD simulation software <br>
+                    </p>
+                    <p class="xp">
+                        Used Visual Molecular Dynamics (VMD) to analyze and refine our model parameters <br>
+                    </p>
+                </p>
+            <!-- </div> -->
+          </div>
+        </div>
+        </div>
+       <footer>
+           <nav class="socials">
+               <ul>
+                   <li><a href="https://www.linkedin.com/in/davidibezim"><img src="images/5296501_linkedin_network_linkedin logo_icon.png" alt=""> </a></li>
+                   <li><a id="twitter" class="coming-soon" href=""><img src="images/5296516_tweet_twitter_twitter logo_icon.png" alt="" on></a></li>
+                   <li><a id="facebook" class="coming-soon"  href=""><img src="images/5365678_fb_facebook_facebook logo_icon.png" alt=""></a></li>
+                   <li><a id="instagram" class="coming-soon"  href=""><img src="images/5296765_camera_instagram_instagram logo_icon.png" alt=""></a></li>
+               </ul>
+           </nav>
+       </footer>
+
+       <script>
+        
+           var menuList = document.getElementById("menuList")
+
+           menuList.style.maxHeight = "0px";
+
+           function togglemenu(){
+               if(menuList.style.maxHeight == "0px"){
+                   menuList.style.maxHeight = "150px"
+               }
+               else{
+                   menuList.style.maxHeight = "0px"
+               }
+
+           }
+       </script>
+    </body>
+</html>
