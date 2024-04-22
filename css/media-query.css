@@ -63,10 +63,10 @@
     margin-right: unset;
 }
 
-@media  screen and (min-width: 1081px){ 
-    /* .col{
+@media  screen and (min-width: 3840px){ 
+     .col{
         width: 40rem;
-     } */
+     } 
  }
 
  /* @media screen 
