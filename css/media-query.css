@@ -63,7 +63,7 @@
     margin-right: unset;
 }
 
-@media  screen and (min-width: 3840px){ 
+@media  only screen and (min-width: 3840px){ 
      .container{
         max-width: 10rem;
      } 
